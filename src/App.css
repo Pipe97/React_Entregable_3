@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+     background-color: rgb(3, 180, 3);
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.principal_title{
+    text-align: center;
+}
