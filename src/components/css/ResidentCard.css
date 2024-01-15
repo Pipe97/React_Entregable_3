@@ -1,0 +1,92 @@
+body {
+  background-color: #05292e;
+}
+.resident {
+  font-size: 1rem;
+  width: 100%;
+  max-width: 350px;
+  background-color: skyblue;
+  color: #fff;
+  border-radius: 0.8em;
+  overflow: hidden;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.resident__header {
+  position: relative;
+}
+
+.resident__status {
+  position: absolute;
+  top: 10%;
+  width: 40%;
+  min-width: 100px;
+  background-color: #062226;
+  padding: 0.3em 0.5em;
+  border-top-right-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+}
+
+.resident__circle {
+  width: 12px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-color: #fff;
+  display: inline-block;
+  margin-right: 0.6em;
+}
+.Alive {
+  background-color: green;
+}
+
+.Dead {
+  background-color: purple;
+}
+
+.resident__card {
+  height: 250px;
+}
+
+.resident__name {
+  padding: 15px 0 10px 0;
+}
+
+hr{
+    border: 0.1px solid darkgray;
+    width: 95%;
+    margin: 0 auto;
+}
+.resident__list{
+    margin-top: 17px;
+    margin-left: 20px;
+    line-height: 1.4em;
+}
+
+.resident__item{
+    display: grid;
+}
+
+.resident__item{
+    display: grid;
+}
+
+.resident__label{
+    color: pink;
+    font-size: 0.6em;
+    margin-left: 25px;
+}
+
+@media screen and (max-width: 576px) {
+    .resident__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+      
+    .resident {
+        width: 100%;
+        max-width: 100%; /* Modificado */
+        }
+      }
+    

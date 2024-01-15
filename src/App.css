@@ -1,0 +1,28 @@
+.app {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 0;
+}
+
+.app__content {
+  display: grid;
+  grid-template-columns: auto;
+  align-items: center;
+}
+
+.app__banner{
+width: 70%;
+height: 70%;
+margin: 0 auto;
+}
+
+.resident-container {
+  padding-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  max-width: 1024px;
+  margin: 0 auto;
+  gap: 1rem;
+}
+
+
