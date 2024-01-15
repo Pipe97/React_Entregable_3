@@ -21,7 +21,7 @@ function App() {
   return (
     <>
       <div className="app app__content">
-        <img src="/public/tt.png" alt="" className="app__banner" />
+        <img src="/tt.png" alt="" className="app__banner" />
         <FormSearch setIdLocation={setIdLocation} randomId={randomId}/>
 
         {hasError ? (
