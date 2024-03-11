@@ -35,8 +35,16 @@
     font-size: 12px;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 576px) {
     .location__content {
         width: 100%;
+       
+    }
+}
+@media (max-width: 310px) {
+    .location__content {
+        width: 100%;
+        font-size: 50%;
+       
     }
 }

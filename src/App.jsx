@@ -29,7 +29,7 @@ function App() {
         ) : (
           <>
             <LocationInfo location={location} />
-            <div className="resident-container">
+            <div className="resident__container">
               {location?.residents.map((url) => (
                 <ResidentCard url={url} key={url} />
               ))}
